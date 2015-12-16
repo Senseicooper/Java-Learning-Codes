@@ -1,0 +1,24 @@
+public class ErstesProgramm {
+	public static void main(String[] args) 
+	{
+		int variable1 = 10;
+		Integer variable2 = 3;
+		String hallo;
+		hallo = "Hallo Fabio!";
+		String wie = "Wie gehts?";
+		String drei = hallo + " " + wie;
+//		bei float muss hinter der Zahl ein "f" sein damit die Zahl direkt im code "markiert" werden kann.
+//		dasselbe zählt bei double
+		float floatingiscool = 14.000155f;
+		
+		
+		System.out.println("Hallo Fabio, dies ist dein erstes Programm!");
+		System.out.println(variable1 + variable2);
+		System.out.println(variable1 % variable2);
+		System.out.println(hallo);
+		System.out.println(hallo + " " + wie);
+		System.out.println(drei);
+		System.out.println(floatingiscool);
+	}
+
+}
