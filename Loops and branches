@@ -7,7 +7,6 @@ public class SchleifenUndVerzweigungen {
 		int maxzahl = 100;
 		String Test = "Hallo";
 /*		
-// 		Normale einfache While-Schlaufe
 		while(i <= maxzahl){
 			System.out.println(i);
 			i += 1;
