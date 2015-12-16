@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class StatischeMethoden {
+		public static void main(String[] args){
+			
+		double summand1,summand2;
+		
+		summand1= einlesenDouble("Summand 1 eingeben:");
+		summand2= einlesenDouble("Summand 2 eingeben:");
+		
+		System.out.println(summand1 + summand2);
+			
+		}
+
+
+		public static double einlesenDouble (String text){
+			double eingabe;
+			Scanner sc = new Scanner(System.in);
+			System.out.print(text);
+			eingabe = sc.nextDouble();
+			return eingabe;
+			
+		}
+
+}
+
